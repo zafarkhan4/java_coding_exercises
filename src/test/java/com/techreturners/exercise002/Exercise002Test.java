@@ -17,6 +17,7 @@ public class Exercise002Test {
         assertEquals(false, ex002.isFromManchester(/* p2 */ ));
     }
 
+    @Test
     public void checkCanWatchFilm() {
         Exercise002 ex002 = new Exercise002();
 
