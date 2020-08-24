@@ -13,4 +13,8 @@ public class Exercise001 {
     public double addVat(double originalPrice, double vatRate) {
         return 0.0;
     }
+
+    public String reverse(String sentence) {
+        return "";
+    }
 }
