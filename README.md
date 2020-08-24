@@ -1,5 +1,3 @@
-# java_coding_exercises
-
 # Java Practice
 
 This repository contains challenges for you undertake to build on your coding and technical ability. We will be checking over your solutions, so please ensure you push to GitHub regularly. 
