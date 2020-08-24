@@ -1,5 +1,7 @@
 package com.techreturners.exercise001;
 
+import java.util.List;
+
 public class Exercise001 {
     public String capitalizeWord(String word) {
         // Add your code here
@@ -16,5 +18,9 @@ public class Exercise001 {
 
     public String reverse(String sentence) {
         return "";
+    }
+
+    public int countLinuxUsers(List<User> users) {
+        return 0;
     }
 }
