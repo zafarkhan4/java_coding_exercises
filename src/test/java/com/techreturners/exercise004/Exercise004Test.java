@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 
 public class Exercise004Test {
 
-    @Ignore("You can remove this @ignore annotation to run the test")
     @Test
     public void checkGetDateTimeWhenDateIsSpecified() {
 
