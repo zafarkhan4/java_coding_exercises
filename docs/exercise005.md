@@ -23,4 +23,4 @@ Feel free to structure your code however you prefer to solve the exercise.
 We'd like to see clean code, so please keep clear separation of concerns, and the D.R.Y. (Don't Repeat Yourself) principle in mind.
 
 This exercise is inspired by the following source:
-Pangram Pangram Foundry. 2021. The Definitive Pangram List: A tool for every graphic designers.. [online] Available at: <https://pangrampangram.com/blogs/journal/best-pangrams-a-tool-for-every-graphic-designers> [Accessed 19 July 2021].
+- Pangram Foundry. 2021. The Definitive Pangram List: A tool for every graphic designers.. [online] Available at: <https://pangrampangram.com/blogs/journal/best-pangrams-a-tool-for-every-graphic-designers> [Accessed 19 July 2021].

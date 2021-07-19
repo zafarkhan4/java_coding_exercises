@@ -22,4 +22,4 @@ Feel free to structure your code however you prefer to solve the exercise.
 We'd like to see clean code, so please keep clear separation of concerns, and the D.R.Y. (Don't Repeat Yourself) principle in mind.
 
 ### Extension Exercise
-- Add additional unit tests to [Exercise003Test.java](../src/test/java/com/techreturners/exercise003/Exercise003Test.java)
+Add additional unit tests to [Exercise003Test.java](../src/test/java/com/techreturners/exercise003/Exercise003Test.java)
