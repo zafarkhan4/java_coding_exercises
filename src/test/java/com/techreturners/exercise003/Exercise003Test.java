@@ -17,38 +17,38 @@ public class Exercise003Test {
     }
 
     @Test
-    public void checkPickColorCodeForBlue() {
-        int colorInput = 0;
-        String expected = "blue";
+    public void checkGetIceCreamCodeForMintChocolateChip() {
+        String iceCreamFlavour = "Mint Chocolate Chip";
+        int expected = 3;
 
-        assertEquals(expected, ex003.pickColor(colorInput));
+        assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
     }
 
     @Ignore("You can remove this @ignore annotation to run the test")
     @Test
-    public void checkPickColorCodeForOrange() {
-        int colorInput = 1;
-        String expected = "orange";
+    public void checkGetIceCreamCodeForMangoSorbet() {
+        String iceCreamFlavour = "Mango Sorbet";
+        int expected = 5;
 
-        assertEquals(expected, ex003.pickColor(colorInput));
+        assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
     }
 
     @Ignore("You can remove this @ignore annotation to run the test")
     @Test
-    public void checkPickColorCodeForGreen() {
-        int colorInput = 5;
-        String expected = "green";
+    public void checkGetIceCreamCodeForRaspberryRipple() {
+        String iceCreamFlavour = "Raspberry Ripple";
+        int expected = 1;
 
-        assertEquals(expected, ex003.pickColor(colorInput));
+        assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
     }
 
     @Ignore("You can remove this @ignore annotation to run the test")
     @Test
-    public void checkPickMultipleColorCodes() {
+    public void checkPickMultipleIceCreamFlavours() {
 
-        String[] expected = { "blue", "orange", "red", "black", "yellow", "green" };
+        String[] expected = { "Pistachio", "Raspberry Ripple", "Vanilla", "Mint Chocolate Chip", "Chocolate", "Mango Sorbet" };
 
-        assertEquals(expected, ex003.colors());
+        assertEquals(expected, ex003.iceCreamFlavours());
     }
 
 
