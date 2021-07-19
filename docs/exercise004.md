@@ -8,7 +8,7 @@ Given a moment, your job is to write a program to find the moment that would be 
 A gigasecond is 10^9 (1,000,000,000) seconds.
 
 ### Add additional unit tests
-You'll see some starter unit tests in [Exercise004Test.java](../src/test/java/com/techreturners/exercise003/Exercise004Test.java)
+You'll see some starter unit tests in [Exercise004Test.java](../src/test/java/com/techreturners/exercise004/Exercise004Test.java)
 Your job is to add additional unit tests and make all the unit tests pass.
 
 Feel free to structure your code however you prefer to solve the exercise.
