@@ -3,7 +3,7 @@
 This exercise gives you the opportunity to explore classes, Date/Time and unit tests in Java.
 
 ### Instructions
-Given a moment, your job is to write a program to find the moment that would be after a gigasecond has passed.
+Given a moment in time (represented as a date/time value), your job is to write a program to find the moment that would be after a gigasecond has passed.
 
 A gigasecond is 10^9 (1,000,000,000) seconds.
 
