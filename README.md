@@ -22,15 +22,13 @@ To complete these challenges you will need to have Java and Maven installed on y
 
 Follow this link and to download and install the **Java SE Development Kit** for your laptop:
 
-https://www.oracle.com/uk/java/technologies/javase-downloads.html
+https://www.oracle.com/uk/java/technologies/downloads/#java17
 
-At the time of writing (09/2021) the latest version LTS (Long term support) version of the Java SE Development kit is version 11.
+At the time of writing (12/2022) the latest version LTS (Long term support) version of the Java SE Development kit is version 17.
 
 #### Alternative Installation Methods
 
 - If you already have [homebrew](https://brew.sh/) on macOS/Linux, you can follow the instructions from this community [blog](https://mkyong.com/java/how-to-install-java-on-mac-osx/)
-
-- If you are using [Chocolatey](https://community.chocolatey.org) on Windows OS, you can run the following [command](https://community.chocolatey.org/packages/jdk11) to install Java SE 11.0.2.9
 
 ### Installing Maven
 
