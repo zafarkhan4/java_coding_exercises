@@ -1,11 +1,10 @@
 package com.techreturners.exercise001;
 
-import static org.junit.Assert.assertEquals;
-
+import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
+import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.Test;
 
 public class Exercise001Test {
 
