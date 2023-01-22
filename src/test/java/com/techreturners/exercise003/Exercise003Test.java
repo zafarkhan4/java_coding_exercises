@@ -1,10 +1,13 @@
 package com.techreturners.exercise003;
 
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class Exercise003Test {
 
     private Exercise003 ex003;
@@ -22,7 +25,7 @@ public class Exercise003Test {
         assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
     }
 
-    @Disabled("You can remove this @Disabled annotation to run the test")
+ 
     @Test
     public void checkGetIceCreamCodeForMangoSorbet() {
         String iceCreamFlavour = "Mango Sorbet";
@@ -31,7 +34,7 @@ public class Exercise003Test {
         assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
     }
 
-    @Disabled("You can remove this @Disabled annotation to run the test")
+
     @Test
     public void checkGetIceCreamCodeForRaspberryRipple() {
         String iceCreamFlavour = "Raspberry Ripple";
@@ -40,13 +43,13 @@ public class Exercise003Test {
         assertEquals(expected, ex003.getIceCreamCode(iceCreamFlavour));
     }
 
-    @Disabled("You can remove this @Disabled annotation to run the test")
     @Test
     public void checkPickMultipleIceCreamFlavours() {
 
         String[] expected = { "Pistachio", "Raspberry Ripple", "Vanilla", "Mint Chocolate Chip", "Chocolate", "Mango Sorbet" };
 
-        assertEquals(expected, ex003.iceCreamFlavours());
+        // assertEquals(expected, ex003.iceCreamFlavours());
+        assertArrayEquals(expected, ex003.iceCreamFlavours());
     }
 
 
