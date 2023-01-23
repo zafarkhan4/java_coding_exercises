@@ -1,6 +1,7 @@
 package com.techreturners.exercise003;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class Exercise003 {
@@ -53,7 +54,7 @@ public class Exercise003 {
 
     // Approach 2 using Map
     // time complexity for this approach is O(1)
-    private static Map<String, Integer> iceCreamFlavours = new HashMap<>();
+    private static Map<String, Integer> iceCreamFlavours = new LinkedHashMap<>();
     
     static {
 

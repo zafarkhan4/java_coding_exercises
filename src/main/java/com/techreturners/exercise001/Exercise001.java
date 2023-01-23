@@ -37,25 +37,12 @@ public class Exercise001 {
     }
 
     public String reverse(String sentence) {
-        char[] characters = sentence.toCharArray();
-        StringBuffer reverseSentence = new StringBuffer();
-
-        for (int i = characters.length - 1; i >= 0; i--) {
-            reverseSentence.append(characters[i]);
-        }
-
-        return reverseSentence.toString();
+        StringBuilder originalSequence = new StringBuilder(sentence);
+        return originalSequence.reverse().toString();
     }
 
     public int countLinuxUsers(List<User> users) {
-        int linuxUsers = 0;
-
-        for (User user : users) {
-            if (user.getType().equalsIgnoreCase("linux")) {
-                linuxUsers++;
-            }
-        }
-
-        return linuxUsers;
+        Long linuxUsers = new Long(users.stream().filter(user -> user.getType().equalsIgnoreCase("linux")).count());
+        return linuxUsers.intValue();
     }
 }
